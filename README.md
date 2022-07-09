@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.cdf;
+})();
 })();
 </script>
 ```
@@ -164,6 +166,7 @@ y = mycdf( 1.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var i;
 var N;
@@ -181,6 +184,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x: %d, N: %d, K: %d, n: %d, F(x;N,K,n): %d', x.toFixed( 4 ), N, K, n, y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
