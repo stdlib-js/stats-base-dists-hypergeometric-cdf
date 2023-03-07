@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/cdf"
-click B href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/main"
-click C href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/production"
-click D href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/esm"
-click E href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/deno"
-click F href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/cdf"
+%% click B href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/main"
+%% click C href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/production"
+%% click D href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/esm"
+%% click E href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/deno"
+%% click F href "https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/cdf
