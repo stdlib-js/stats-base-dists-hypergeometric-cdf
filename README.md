@@ -63,13 +63,13 @@ F(x;N,K,n) =\sum_{i=0}^{\lfloor x \rfloor} \frac{{K \choose i}{N-K \choose n-i}}
 ## Usage
 
 ```javascript
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@esm/index.mjs';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@v0.2.0-esm/index.mjs';
 ```
 
 #### cdf( x, N, K, n )
@@ -160,7 +160,7 @@ y = mycdf( 1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@esm/index.mjs';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-cdf@v0.2.0-esm/index.mjs';
 
 var i;
 var N;
