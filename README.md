@@ -217,11 +217,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -237,8 +232,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-hypergeometric-cdf.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-hypergeometric-cdf
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-hypergeometric-cdf/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-hypergeometric-cdf?branch=main
@@ -267,8 +262,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-cdf/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-hypergeometric-cdf/main/LICENSE
 
 [cdf]: https://en.wikipedia.org/wiki/Cumulative_distribution_function
 
