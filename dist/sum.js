@@ -18,21 +18,26 @@
 
 'use strict';
 
-// MODULES //
+/**
+* Computes the sum of elements in an array.
+*
+* @private
+* @param {Array} arr - input array
+* @returns {number} sum
+*/
+function sum( arr ) {
+	var len;
+	var s;
+	var i;
+	len = arr.length;
+	s = 0;
+	for ( i = 0; i < len; i++ ) {
+		s += arr[ i ];
+	}
+	return s;
+}
 
-var tape = require( 'tape' );
-var cdf = require( './../lib' );
 
+// EXPORTS //
 
-// TESTS //
-
-tape( 'main export is a function', function test( t ) {
-	t.ok( true, __filename );
-	t.strictEqual( typeof cdf, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'attached to the main export is a factory method for generating `cdf` functions', function test( t ) {
-	t.strictEqual( typeof cdf.factory, 'function', 'exports a factory method' );
-	t.end();
-});
+module.exports = sum;
