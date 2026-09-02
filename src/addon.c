@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,28 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/hypergeometric/cdf.h"
+#include "stdlib/math/base/napi/quaternary.h"
 
-/**
-* Computes the sum of elements in an array.
-*
-* @private
-* @param {Array} arr - input array
-* @returns {number} sum
-*/
-function sum( arr ) {
-	var len;
-	var s;
-	var i;
-	len = arr.length;
-	s = 0;
-	for ( i = 0; i < len; i++ ) {
-		s += arr[ i ];
-	}
-	return s;
-}
-
-
-// EXPORTS //
-
-module.exports = sum;
+STDLIB_MATH_BASE_NAPI_MODULE_DIII_D( stdlib_base_dists_hypergeometric_cdf )
