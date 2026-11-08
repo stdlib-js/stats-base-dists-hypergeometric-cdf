@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -44,6 +44,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7665af9`](https://github.com/stdlib-js/stdlib/commit/7665af97d39b47c3e23a484a3a0cd6582fc908df) - **test:** migrate `stats/base/dists/hypergeometric/cdf` to ULP-based assertions [(#15693)](https://github.com/stdlib-js/stdlib/pull/15693) _(by Athan Reines)_
 -   [`493166d`](https://github.com/stdlib-js/stdlib/commit/493166d37b791f844029c6b72780366ef8e62259) - **fix:** perform support checks before integer narrowing [(#14933)](https://github.com/stdlib-js/stdlib/pull/14933) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f29c023`](https://github.com/stdlib-js/stdlib/commit/f29c023be68af3f8f604fb0c1d6607159444c0b9) - **feat:** add C implementation for `stats/base/dists/hypergeometric/cdf` [(#10341)](https://github.com/stdlib-js/stdlib/pull/10341) _(by Vishal.., Philipp Burckhardt)_
 -   [`77a562a`](https://github.com/stdlib-js/stdlib/commit/77a562af730f04df4f25308c21fca66cb994b65a) - **bench:** refactor to use string interpolation in `stats/base/dists/hypergeometric` [(#10390)](https://github.com/stdlib-js/stdlib/pull/10390) _(by Vishal Gaikwad)_
