@@ -1,47 +1,9 @@
+"use strict";var c=function(a,r){return function(){try{return r||a((r={exports:{}}).exports,r),r.exports}catch(e){throw (r=0, e)}};};var m=c(function(U,d){
+function O(a){var r,e,i;for(r=a.length,e=0,i=0;i<r;i++)e+=a[i];return e}d.exports=O
+});var I=c(function(V,F){
+var p=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),q=require('@stdlib/math-base-assert-is-nan/dist'),R=require('@stdlib/math-base-special-trunc/dist'),j=require('@stdlib/math-base-special-max/dist'),g=require('@stdlib/math-base-special-min/dist'),k=require('@stdlib/stats-base-dists-hypergeometric-pmf/dist'),l=require('@stdlib/constants-float64-pinf/dist'),z=require('@stdlib/array-float64/dist'),B=m();function C(a,r,e,i){var u,n,o,s,t;if(q(a)||q(r)||q(e)||q(i)||!p(r)||!p(e)||!p(i)||r===l||e===l||e>r||i>r)return NaN;if(a=R(a),a<j(0,i+e-r))return 0;if(a>=g(i,e))return 1;for(n=new z(a+1),n[a]=k(a,r,e,i),t=a-1;t>=0;t--)o=(t+1)*(r-e-(i-t-1)),u=(e-t)*(i-t),n[t]=o/u*n[t+1];return s=B(n),g(s,1)}F.exports=C
+});var P=c(function(W,A){
+var y=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),f=require('@stdlib/math-base-assert-is-nan/dist'),D=require('@stdlib/utils-constant-function/dist'),E=require('@stdlib/math-base-special-trunc/dist'),G=require('@stdlib/math-base-special-max/dist'),b=require('@stdlib/math-base-special-min/dist'),H=require('@stdlib/stats-base-dists-hypergeometric-pmf/dist'),w=require('@stdlib/constants-float64-pinf/dist'),J=require('@stdlib/array-float64/dist'),L=m();function M(a,r,e){if(f(a)||f(r)||f(e)||!y(a)||!y(r)||!y(e)||a===w||r===w||r>a||e>a)return D(NaN);return i;function i(u){var n,o,s,t,v;if(f(u))return NaN;if(u=E(u),u<G(0,e+r-a))return 0;if(u>=b(e,r))return 1;for(o=new J(u+1),o[u]=H(u,a,r,e),v=u-1;v>=0;v--)s=(v+1)*(a-r-(e-v-1)),n=(r-v)*(e-v),o[v]=s/n*o[v+1];return t=L(o),b(t,1)}}A.exports=M
+});var Q=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),h=I(),S=P();Q(h,"factory",S);module.exports=h;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Hypergeometric distribution cumulative distribution function (CDF).
-*
-* @module @stdlib/stats-base-dists-hypergeometric-cdf
-*
-* @example
-* var cdf = require( '@stdlib/stats-base-dists-hypergeometric-cdf' );
-*
-* var y = cdf( 1.0, 8, 4, 2 );
-* // returns ~0.786
-*
-* y = cdf( 1.5, 8, 4, 2 );
-* // returns ~0.786
-*
-* y = cdf( 2.0, 8, 4, 2 );
-* // returns 1.0
-*
-* y = cdf( 0.0, 8, 4, 2 );
-* // returns ~0.214
-*
-* var mycdf = cdf.factory( 30, 20, 5 );
-* y = mycdf( 4.0 );
-* // returns ~0.891
-*
-* y = mycdf( 1.0 );
-* // returns ~0.031
-*/
-
-// MODULES //
-
-var setReadOnly = require( '@stdlib/utils-define-nonenumerable-read-only-property/dist' );
-var main = require( './main.js' );
-var factory = require( './factory.js' );
-
-
-// MAIN //
-
-setReadOnly( main, 'factory', factory );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map

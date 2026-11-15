@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-08)
+## Unreleased (2026-11-15)
 
 <section class="features">
 
@@ -44,6 +44,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`7e0af58`](https://github.com/stdlib-js/stdlib/commit/7e0af585e61692ec8e8f6da8d3da3edd2cf7e92c) - **docs:** clean-up [(#16642)](https://github.com/stdlib-js/stdlib/pull/16642) _(by Philipp Burckhardt)_
 -   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`7665af9`](https://github.com/stdlib-js/stdlib/commit/7665af97d39b47c3e23a484a3a0cd6582fc908df) - **test:** migrate `stats/base/dists/hypergeometric/cdf` to ULP-based assertions [(#15693)](https://github.com/stdlib-js/stdlib/pull/15693) _(by Athan Reines)_
 -   [`493166d`](https://github.com/stdlib-js/stdlib/commit/493166d37b791f844029c6b72780366ef8e62259) - **fix:** perform support checks before integer narrowing [(#14933)](https://github.com/stdlib-js/stdlib/pull/14933) _(by Philipp Burckhardt, Athan Reines)_
